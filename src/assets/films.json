@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "Bloodshot",
-    "description": "Ray Garrison, an elite soldier who was killed in battle, is brought back to life by an advanced technology that gives him the ability of super human strength and fast healing. With his new abilities, he goes after the man who killed his wife, or at least, who he believes killed his wife. He soon comes to learn that not everything he learns can be trusted.",
+    "description": "Ray Garrison, an elite soldier who was killed in battle, is brought back to life by an advanced technology that gives him the ability of super human strength and fast healing. With his new abilities, he goes after the man who killed his wife, or at least, who he believes killed his wife. He soon comes to learn that not everything he learns can be...",
     "price": 11,
     "image": "../assets/images/bloodshot.jpeg"
   },
@@ -15,7 +15,7 @@
   {
     "id": 3,
     "name": "Tenet",
-    "description": "In a twilight world of international espionage, an unnamed CIA operative, known as The Protagonist, is recruited by a mysterious organization called Tenet to participate in a global assignment that unfolds beyond real time. The mission: prevent Andrei Sator, a renegade Russian oligarch with precognition abilities, from starting World War III.",
+    "description": "In a twilight world of international espionage, an unnamed CIA operative, known as The Protagonist, is recruited by a mysterious organization called Tenet to participate in a global assignment that unfolds beyond real time. The mission: prevent Andrei Sator, a renegade Russian oligarch with precognition abilities, from starting World War.",
     "price": 8,
     "image": "../assets/images/tenet.jpeg"
   },
@@ -39,5 +39,33 @@
     "description": "After an eye-opening encounter of the third kind, the secret MiB organisations newest recruit, Agent M, finds herself under the wing of the heroic Agent H in cosmopolitan London, when a shape-shifting duo of intergalactic assassins executes an alien aristocrat.However, heavy clouds of mistrust and a scent of betrayal envelop.",
     "price": 9,
     "image": "../assets/images/manInBlack.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Avengers: Endgame",
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+    "price": 15,
+    "image": "../assets/images/avengers.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Mission: Impossible - Fallout",
+    "description": "Two years after Ethan Hunt had successfully captured Solomon Lane, the remnants of the Syndicate have reformed into another organization called the Apostles. Under the leadership of a mysterious fundamentalist known only as John Lark, the organization is planning on acquiring three plutonium cores. Ethan and his team are sent to Berlin.",
+    "price": 10,
+    "image": "../assets/images/mission.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Venom",
+    "description": "After a faulty interview with the Life Foundation ruins his career, former reporter Eddie Brock's life is in pieces. Six months later, he comes across the Life Foundation again, and he comes into contact with an alien symbiote and becomes Venom, a parasitic antihero.",
+    "price": 7,
+    "image": "../assets/images/venom.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Johnny English Strikes Again",
+    "description": "A cyber-attack reveals the identity of all active undercover agents in Britain, leaving Johnny English (Rowan Atkinson) as the Secret Service's last hope. Called out of retirement, English dives head first into action with the mission to find the mastermind hacker.",
+    "price": 18,
+    "image": "../assets/images/english.jpeg"
   }
 ]
