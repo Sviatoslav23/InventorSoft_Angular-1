@@ -1,0 +1,25 @@
+
+  <div class="liked">
+    <div class="total">
+      <span> Total price - {{totalPrice()}}$</span>
+      <button (click)="clearLS()" class=" clearLiked">Delete all</button>
+    </div>
+    
+    <div class="wrapper">
+    <div class="block" *ngFor="let film of liked; index as i">
+      <h3 class="movie-title center">
+        <a [title]="film.name + ' details'">
+          {{ film.name }}
+        </a>
+      </h3>
+        <div class="movie-img">
+          <img src="{{film.image}}" alt="">
+        </div>
+       
+          <div class="movie-bottom">
+            <button class="movie-price">{{ film.price }}$</button>
+            <button (click)="daleteFromCart(film,i)" class="btn-favotite">Delete</button>
+          </div>
+
+  </div>
+</div>

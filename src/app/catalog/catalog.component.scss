@@ -1,0 +1,155 @@
+$mainblue: #1976d2;
+
+@mixin standart-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.block {
+  width: 450px;
+  padding: 20px;
+  border: 2px dashed lightblue;
+  margin: 10px 25px 13px 0px;
+}
+
+.row {
+  @include standart-flex;
+}
+
+.desc-title {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.movie-img {
+  padding-right: 23px;
+}
+
+.movie-desc {
+  padding-top: 10px;
+  position: relative;
+}
+
+.movie-title {
+  padding-bottom: 15px;
+}
+.btn-favotite i {
+  font-size: 17px;
+  margin-left: 5px;
+}
+.btn-favotite:active {
+  background:  lightblue;
+  transition: .5s;
+}
+
+.movie-text {
+  font-size: 15px;
+  padding-bottom: 55px;
+}
+
+.movie-bottom {
+  position: absolute;
+  bottom: 1px;
+}
+
+.movie-price {
+  background-color: #eee;
+  color: $mainblue;
+  border: 1px solid $mainblue;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 992px+100) {
+  .block {
+    width: 390px;
+    padding: 18px;
+    margin: 10px 15px 10px 0px;
+  }
+
+  .movie-text {
+    font-size: 14px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movie-bottom {
+    margin: 15px;
+  }
+  .movie-price {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 805px+100) {
+  .block {
+    width: 310px;
+  }
+
+  .movie-bottom {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .movie-price {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 640px+100) {
+  .block {
+    width: 250px;
+  }
+
+  .movie-bottom {
+    margin: 13px;
+  }
+
+  .movie-img {
+    text-align: center;
+  }
+  .movie-price {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 515px+100) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block {
+    width: 400px;
+    margin-right: 0;
+  }
+  .movie-price {
+    margin-left: 75px;
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 400px+100) {
+  .block {
+    width: 300px;
+  }
+  .movie-price {
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+}

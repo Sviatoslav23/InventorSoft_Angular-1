@@ -1,0 +1,31 @@
+<div class="container">
+
+  <div class="wrapper">
+    <div class="block" *ngFor="let movie of movies">
+      <h3 class="movie-title center">
+        <a [title]="movie.name + ' details'">
+          {{ movie.name }}
+        </a>
+      </h3>
+      <div class="row">
+        <div class="movie-img">
+          <img src="{{movie.image}}" alt="">
+        </div>
+        <div class="movie-desc">
+          <div class="desc-title">Decription:</div>
+          <p class="movie-text" *ngIf="movie.description">
+            {{ movie.description }}
+          </p>
+          <div class="movie-bottom">
+            <button class="movie-price" [title]="'Buy'" #myBtn (click)="like(myBtn)">{{movie.price}}$</button>
+        <button *ngIf="movie.filmInCart; else del" (click)=" daleteFromCart(movie)" class="btn-favotite">Delete</button>
+        <ng-template #del>
+          <button  (click)="addToCart(movie)" class="btn-favotite">Add <i class="material-icons">shopping_cart</i></button>
+        </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

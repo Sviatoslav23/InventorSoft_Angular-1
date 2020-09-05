@@ -1,0 +1,43 @@
+.footer {
+  color: white;
+  background-color: #1976d2;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+.tel {
+  margin-right: 20px;
+}
+.tel h4 {
+  padding-bottom: 10px;
+}
+
+.tel p {
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.author,
+.f-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 615px+100) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+  .author {
+    margin: 15px 0;
+    text-align: center;
+  }
+  .tel h4 {
+    padding-bottom: 5px;
+  }
+}

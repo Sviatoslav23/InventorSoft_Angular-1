@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "name": "Bloodshot",
+    "description": "Ray Garrison, an elite soldier who was killed in battle, is brought back to life by an advanced technology that gives him the ability of super human strength and fast healing. With his new abilities, he goes after the man who killed his wife, or at least, who he believes killed his wife. He soon comes to learn that not everything he learns can be trusted.",
+    "price": 11,
+    "image": "../assets/images/bloodshot.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Kingsman: The Golden circle",
+    "description": "Great movie!) After the Kingsman headquarters are blown up by a psychotic criminal named Poppy Adams (Julianne Moore), the surviving agents find their way to an allied secret organization based in Kentucky, named 'Statesman'. The two agencies must now work together in order to save the world and take down the so called 'Golden Circle'.",
+    "price": 12,
+    "image": "../assets/images/kingsman.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Tenet",
+    "description": "In a twilight world of international espionage, an unnamed CIA operative, known as The Protagonist, is recruited by a mysterious organization called Tenet to participate in a global assignment that unfolds beyond real time. The mission: prevent Andrei Sator, a renegade Russian oligarch with precognition abilities, from starting World War III.",
+    "price": 8,
+    "image": "../assets/images/tenet.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Gemini Man",
+    "description": "The greatest movie, which I have ever watched! WilL Smith is the best. A retiring assassin, Henry Brogan, finds himself pursued by a mysterious killer that can predict his every move. Discovering that he was being hunted by a younger clone of himself, Henry needs to find out why he was being targeted and who the creator is.",
+    "price": 11,
+    "image": "../assets/images/gemini.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Bad boys: For life",
+    "description": "Marcus and Mike have to confront new issues (career changes and midlife crises), as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.The guy Marcus and Mike chase outside of the nightclub change from being on the right side.",
+    "price": 10,
+    "image": "../assets/images/badBoys.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Man in black: International",
+    "description": "After an eye-opening encounter of the third kind, the secret MiB organisations newest recruit, Agent M, finds herself under the wing of the heroic Agent H in cosmopolitan London, when a shape-shifting duo of intergalactic assassins executes an alien aristocrat.However, heavy clouds of mistrust and a scent of betrayal envelop.",
+    "price": 9,
+    "image": "../assets/images/manInBlack.jpeg"
+  }
+]
